@@ -1,5 +1,5 @@
 const skills = [
- /{
+  {
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const skills = [
     items: [
       { name: "Docker", proficiency: 90 },
       { name: "Swarm", proficiency: 90 },
-      { name: "Kubernetes", proficiency: 85 }
+      { name: "Kubernetes", proficiency: 85 },
     ],
   },
   {
@@ -71,9 +71,9 @@ const skills = [
     ),
     title: "Infrastructure as Code",
     items: [
-      { name: "Ansible", proficiency: 90},
+      { name: "Ansible", proficiency: 90 },
       { name: "Terraform", proficiency: 80 },
-      { name: "Vagrant", proficiency: 85 }
+      { name: "Vagrant", proficiency: 85 },
     ],
   },
   {
