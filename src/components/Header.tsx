@@ -64,7 +64,7 @@ export default function Header() {
         </nav>
         <div className="flex items-center space-x-4">
           <a
-            href="https://github.com"
+            href="https://github.com/mrbooshehri/"
             className="text-gray-300 hover:text-emerald-400 transition"
           >
             <svg
@@ -83,7 +83,7 @@ export default function Header() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://ir.linkedin.com/in/mrbooshehri"
             className="text-gray-300 hover:text-emerald-400 transition"
           >
             <svg
@@ -106,7 +106,7 @@ export default function Header() {
             </svg>
           </a>
           <a
-            href="mailto:contact@example.com"
+            href="mailto:mrbooshehri@gmai\.com"
             className="text-gray-300 hover:text-emerald-400 transition"
           >
             <svg
