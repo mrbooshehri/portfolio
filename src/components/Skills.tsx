@@ -130,8 +130,6 @@ const skills = [
       { name: "Zabbix", proficiency: 90 },
       { name: "Prometheus", proficiency: 90 },
       { name: "Grafana", proficiency: 90 },
-      { name: "ELK Stack", proficiency: 80 },
-      { name: "Grayog", proficiency: 80 },
     ],
   },
   {
