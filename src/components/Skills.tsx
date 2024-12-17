@@ -1,5 +1,5 @@
 const skills = [
-  {
+ /{
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -18,10 +18,9 @@ const skills = [
     ),
     title: "Cloud Platforms",
     items: [
-      { name: "AWS", proficiency: 95 },
-      { name: "Azure", proficiency: 85 },
-      { name: "GCP", proficiency: 80 },
-      { name: "Digital Ocean", proficiency: 90 },
+      { name: "AWS", proficiency: 80 },
+      { name: "Arvan Cloud", proficiency: 90 },
+      { name: "Parspack", proficiency: 85 },
     ],
   },
   {
@@ -46,10 +45,9 @@ const skills = [
     ),
     title: "Containerization",
     items: [
-      { name: "Docker", proficiency: 95 },
-      { name: "Kubernetes", proficiency: 90 },
-      { name: "Helm", proficiency: 85 },
-      { name: "OpenShift", proficiency: 80 },
+      { name: "Docker", proficiency: 90 },
+      { name: "Swarm", proficiency: 90 },
+      { name: "Kubernetes", proficiency: 85 }
     ],
   },
   {
@@ -73,10 +71,9 @@ const skills = [
     ),
     title: "Infrastructure as Code",
     items: [
-      { name: "Terraform", proficiency: 95 },
-      { name: "CloudFormation", proficiency: 85 },
-      { name: "Ansible", proficiency: 90 },
-      { name: "Puppet", proficiency: 80 },
+      { name: "Ansible", proficiency: 90},
+      { name: "Terraform", proficiency: 80 },
+      { name: "Vagrant", proficiency: 85 }
     ],
   },
   {
@@ -103,7 +100,6 @@ const skills = [
     ),
     title: "CI/CD",
     items: [
-      { name: "Jenkins", proficiency: 95 },
       { name: "GitLab CI", proficiency: 90 },
       { name: "GitHub Actions", proficiency: 95 },
       { name: "ArgoCD", proficiency: 85 },
@@ -131,10 +127,11 @@ const skills = [
     ),
     title: "Monitoring",
     items: [
+      { name: "Zabbix", proficiency: 90 },
       { name: "Prometheus", proficiency: 90 },
-      { name: "Grafana", proficiency: 95 },
-      { name: "ELK Stack", proficiency: 85 },
-      { name: "Datadog", proficiency: 90 },
+      { name: "Grafana", proficiency: 90 },
+      { name: "ELK Stack", proficiency: 80 },
+      { name: "Grayog", proficiency: 80 },
     ],
   },
   {
@@ -158,10 +155,10 @@ const skills = [
     ),
     title: "Databases",
     items: [
-      { name: "PostgreSQL", proficiency: 90 },
-      { name: "MongoDB", proficiency: 85 },
+      { name: "MongoDB", proficiency: 90 },
+      { name: "Clickhouuse", proficiency: 80 },
       { name: "Redis", proficiency: 90 },
-      { name: "Elasticsearch", proficiency: 85 },
+      { name: "Elasticsearch", proficiency: 80 },
     ],
   },
 ];
