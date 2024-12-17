@@ -30,18 +30,16 @@ export default function Hero() {
           cloud infrastructure, and container orchestration.
         </p>
         <div className="flex justify-center gap-4">
-          <button
-            onclick="location.href='https://www.mrbooshehri.ir/#projects'"
-            className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition"
-          >
-            View Projects
-          </button>
-          <button
-            onclick="location.href='https://www.mrbooshehri.ir/#contact'"
-            className="border border-emerald-500 text-emerald-500 hover:bg-emerald-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition"
-          >
-            Contact Me
-          </button>
+          <a href="#projects">
+            <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition">
+              View Projects
+            </button>
+          </a>
+          <a href="#contact">
+            <button className="border border-emerald-500 text-emerald-500 hover:bg-emerald-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition">
+              Contact Me
+            </button>
+          </a>
         </div>
         <div className="mt-16 animate-bounce">
           <svg
