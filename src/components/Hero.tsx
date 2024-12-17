@@ -17,7 +17,7 @@ export default function Hero() {
               className="w-full h-full object-cover rounded-full border-4 border-emerald-400 relative z-10"
             />
             <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-emerald-400 rounded-full flex items-center justify-center z-20">
-              <span className="text-slate-900 font-bold text-sm">10+</span>
+              <span className="text-slate-900 font-bold text-sm">3+</span>
             </div>
           </div>
         </div>
@@ -30,10 +30,16 @@ export default function Hero() {
           cloud infrastructure, and container orchestration.
         </p>
         <div className="flex justify-center gap-4">
-          <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition">
+          <button
+            onclick="location.href='https://www.mrbooshehri.ir/#projects'"
+            className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition"
+          >
             View Projects
           </button>
-          <button className="border border-emerald-500 text-emerald-500 hover:bg-emerald-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition">
+          <button
+            onclick="location.href='https://www.mrbooshehri.ir/#contact'"
+            className="border border-emerald-500 text-emerald-500 hover:bg-emerald-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition"
+          >
             Contact Me
           </button>
         </div>
