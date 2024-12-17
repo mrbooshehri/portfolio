@@ -159,6 +159,73 @@ const skills = [
       { name: "Elasticsearch", proficiency: 80 },
     ],
   },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon-tabler icons-tabler-outline icon-tabler-device-imac-cog"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 17h-8a1 1 0 0 1 -1 -1v-12a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v8" />
+        <path d="M3 13h13" />
+        <path d="M8 21h4" />
+        <path d="M10 17l-.5 4" />
+        <path d="M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+        <path d="M19.001 15.5v1.5" />
+        <path d="M19.001 21v1.5" />
+        <path d="M22.032 17.25l-1.299 .75" />
+        <path d="M17.27 20l-1.3 .75" />
+        <path d="M15.97 17.25l1.3 .75" />
+        <path d="M20.733 20l1.3 .75" />
+      </svg>
+    ),
+    title: "Other skills",
+    items: [
+      { name: "Gitlab", proficiency: 80 },
+      { name: "HAProxy", proficiency: 80 },
+      { name: "MinIO", proficiency: 90 },
+      { name: "Graylog", proficiency: 75 },
+      { name: "NginX", proficiency: 70 },
+      { name: "LDAP", proficiency: 70 },
+    ],
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-asana"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+        <path d="M17 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+        <path d="M7 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      </svg>
+    ),
+    title: "Issue Tracker And DMC",
+    items: [
+      { name: "Jirra", proficiency: 75 },
+      { name: "Confluence", proficiency: 80 },
+      { name: "ITop", proficiency: 70 },
+      { name: "WikiJS", proficiency: 90 },
+      { name: "Gitlab Pages", proficiency: 70 },
+    ],
+  },
 ];
 
 function ProgressBar({ proficiency }: { proficiency: number }) {
