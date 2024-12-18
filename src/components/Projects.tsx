@@ -23,7 +23,7 @@ const projects = [
     description:
       "The Graylog HAProxy Dashboard provides real-time monitoring and visualization of HAProxy logs within the Graylog platform. This project enables users to analyze traffic patterns, performance metrics, and troubleshoot issues more effectively.",
     tags: ["Graylog", "HAProxy", "Monitoring"],
-    image: "3png",
+    image: "3.png",
     github: "https://github.com/mrbooshehri/graylog-haproxy-dashboard",
     // demo: "https://example.com",
   },
