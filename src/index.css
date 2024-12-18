@@ -21,3 +21,12 @@ body {
       0 0 30px rgba(52, 211, 153, 0.4), 0 0 40px rgba(52, 211, 153, 0.4);
   }
 }
+
+.logo-devops-header {
+  width: 16%;
+}
+@media (max-width: 1535px) {
+  .logo-devops-header {
+    width: inherit;
+  }
+}
