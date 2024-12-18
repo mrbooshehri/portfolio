@@ -1,30 +1,31 @@
 const projects = [
   {
-    title: "Cloud Infrastructure Automation",
+    title: "Textify Jira: Bridging the Gap between Tasks and SMS963.*-edc",
     description:
-      "Developed a multi-cloud infrastructure automation framework using Terraform and Ansible, reducing deployment time by 70%.",
-    tags: ["AWS", "Terraform", "Ansible", "Python"],
-    image: "4.jpg",
-    github: "https://github.com",
-    demo: "https://example.com",
+      "The JIRA SMS Gateway is a tool that enables users to receive real-time JIRA notifications directly via SMS, enhancing communication and accessibility. It integrates seamlessly with JIRA, allowing for customizable alerts based on user preferences and project updates.",
+    tags: ["Python", "Monitoring", "Jira"],
+    image: "Jira and SMS integration.png",
+    github: "https://github.com/mrbooshehri/jira_sms_gateway",
+    // demo: "https://example.com",
   },
   {
-    title: "Kubernetes Cluster Management",
+    title: "Ansible User Management: Streamlined Account Control",
     description:
-      "Implemented a scalable Kubernetes cluster management solution with automated deployment pipelines and monitoring.",
-    tags: ["Kubernetes", "Docker", "Prometheus", "Grafana"],
-    image: "3.jpg",
-    github: "https://github.com",
-    demo: "https://example.com",
+      "Ansible role for efficient user management, enabling streamlined creation, modification, and deletion of user accounts across multiple systems.",
+    tags: ["Ansible", "Administration", "User Management"],
+    image: "ansible-devops.png",
+    github:
+      "https://github.com/mrbooshehri/ansible-playbooks/tree/master/roles/user_management",
+    // demo: "https://example.com",
   },
   {
-    title: "CI/CD Pipeline Optimization",
+    title: "Graylog HAProxy Dashboard: Real-Time Log Monitorings",
     description:
-      "Built and optimized CI/CD pipelines for microservices architecture, improving deployment frequency by 200%.",
-    tags: ["Jenkins", "GitLab CI", "Docker", "Node.js"],
-    image: "/2.jpg",
-    github: "https://github.com",
-    demo: "https://example.com",
+      "The Graylog HAProxy Dashboard provides real-time monitoring and visualization of HAProxy logs within the Graylog platform. This project enables users to analyze traffic patterns, performance metrics, and troubleshoot issues more effectively.",
+    tags: ["Graylog", "HAProxy", "Monitoring"],
+    image: "3png",
+    github: "https://github.com/mrbooshehri/graylog-haproxy-dashboard",
+    // demo: "https://example.com",
   },
 ];
 
