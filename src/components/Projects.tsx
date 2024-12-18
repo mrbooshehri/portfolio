@@ -83,7 +83,7 @@ export default function Projects() {
                     </svg>
                     Code
                   </a>
-                  <a
+                  {/* <a
                     href={project.demo}
                     className="flex items-center gap-2 text-gray-300 hover:text-emerald-400 transition bg-slate-700/50 px-4 py-2 rounded-lg"
                   >
@@ -104,7 +104,7 @@ export default function Projects() {
                       <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
                     </svg>
                     Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
