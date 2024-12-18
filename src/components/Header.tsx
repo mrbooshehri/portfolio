@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full bg-slate-900/95 backdrop-blur z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="flex items-center gap-2 relative">
+        <div className="flex items-center gap-2 relative logo-devops-header">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -50,8 +50,8 @@ export default function Header() {
         <button onClick={handleToggleMenu} className="text-slate-100 xl:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="40"
+            height="40"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
